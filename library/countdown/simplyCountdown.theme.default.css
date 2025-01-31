@@ -1,0 +1,68 @@
+.simply-countdown {
+    overflow: hidden;
+    width: 300px;
+    margin: 30px auto;
+   display: flex;
+    width: 300px;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    font-family: 'Arial', sans-serif;
+}
+.simply-days-section{
+    width: 100%;
+}
+/* .simply-countdown>.simply-section {
+    width: 50px;
+    height: 50px;
+    display: flex;
+} */
+.simply-countdown>.simply-section .simply-amount,
+.simply-countdown>.simply-section .simply-word{
+    display: block;
+    color: #804c21;
+    text-align: center;
+    line-height: 30px;
+}
+.simply-countdown>.simply-days-section .simply-amount,
+.simply-countdown>.simply-days-section .simply-word {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.simply-hours-section .simply-amount,
+.simply-hours-section .simply-word{
+    font-size: 20px;
+    font-weight: bold;
+}
+.simply-minutes-section .simply-amount,
+.simply-minutes-section .simply-word{
+    font-size: 20px;
+    font-weight: bold;
+}
+.simply-seconds-section .simply-amount,
+.simply-seconds-section .simply-word{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+
+.simply-countdown>.simply-days-section .simply-amount{
+    font-size: 45px;
+    margin-top: 20px;
+}
+.simply-countdown>.simply-hours-section .simply-amount{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.simply-countdown>.simply-minutes-section .simply-amount{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.simply-countdown>.simply-seconds-section .simply-amount{
+    font-size: 30px;
+    margin-top: 20px;
+}
