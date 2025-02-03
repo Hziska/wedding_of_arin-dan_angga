@@ -1,0 +1,9 @@
+/* font face */
+@font-face {
+    font-family: "wedding";
+    src: url('../font/Wedding.ttf');
+}
+@font-face {
+    font-family: "poppins";
+    src: url('../font/Poppins-Medium.ttf');
+}

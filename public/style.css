@@ -1,0 +1,411 @@
+@import url("font.css");
+@import url("animate.css");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: 1.3rem;
+  font-family: "poppins";
+  font-weight: normal;
+}
+
+body {
+  background-color: rgba(189, 188, 188, 0.5921568627);
+}
+
+.container {
+  max-width: 480px;
+  margin: auto;
+  background-color: white;
+}
+
+header .box-header {
+  width: 100%;
+  height: 100vh;
+  padding: 20px;
+  background: url("../img/bg.jpeg") no-repeat center/cover;
+}
+header .box-header .box-blur {
+  background-color: rgba(255, 255, 255, 0.301);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  height: calc(100% - 100px);
+  border-top-left-radius: 45%;
+  border-top-right-radius: 45%;
+}
+header .box-header .box-blur .box_foto_header {
+  width: 200px;
+  height: 260px;
+  padding-top: 3rem;
+  margin: auto;
+}
+header .box-header .box-blur .box_foto_header h2 {
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 100;
+  color: rgb(248, 139, 157);
+  margin-bottom: 1rem;
+}
+header .box-header .box-blur .box_foto_header img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  filter: drop-shadow(0 5px 6px rgba(0, 0, 0, 0.589));
+}
+header .box-header .box-blur .box_info_header {
+  margin-top: 70px;
+  text-align: center;
+}
+header .box-header .box-blur .box_info_header h1 {
+  font-family: "wedding";
+  font-size: 2rem;
+  color: rgb(248, 139, 157);
+  font-weight: bold;
+}
+header .box-header .box-blur .box_info_header p {
+  font-size: 0.7rem;
+  color: rgb(248, 139, 157);
+  font-weight: 6000;
+  margin-top: 20px;
+}
+header .box-header .box-blur .box_info_header h2 {
+  font-weight: bold;
+  color: rgb(248, 139, 157);
+}
+
+.caption .box_caption {
+  padding: 18px;
+  height: 100vh;
+  background-color: rgb(254, 165, 180);
+  color: white;
+}
+.caption .box_caption .bungkus_caption {
+  padding-top: 5rem;
+}
+.caption .box_caption .bungkus_caption .box_caption_nama {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.caption .box_caption .bungkus_caption .box_caption_nama div {
+  font-size: 2.4rem;
+  padding: 0 20px;
+  font-family: "wedding";
+}
+.caption .box_caption .bungkus_caption .box_caption_nama div:nth-child(1) {
+  border-right: 3px solid white;
+}
+.caption .box_caption .bungkus_caption .box_caption_ayat {
+  text-align: center;
+}
+.caption .box_caption .bungkus_caption .box_caption_ayat .img {
+  width: 100%;
+}
+.caption .box_caption .bungkus_caption .box_caption_ayat .img img {
+  width: 100%;
+}
+.caption .box_caption .bungkus_caption .box_caption_ayat p {
+  font-size: 0.699rem;
+  font-weight: 100;
+}
+
+.about .box_about {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(rgba(255, 255, 255, 0.816), rgba(255, 255, 255, 0.816)), url("../img/kota_tua.jpeg") no-repeat center/cover;
+  padding: 40px 0;
+}
+.about .box_about .box_title {
+  padding: 40px 0;
+}
+.about .box_about .box_title h2 {
+  text-align: center;
+  font-family: "wedding";
+  color: grey;
+  font-size: 1.8rem;
+}
+.about .box_about .bungkus_about .cowo, .about .box_about .bungkus_about .cewe {
+  margin-top: 100px;
+}
+.about .box_about .bungkus_about .cowo .box_cowo, .about .box_about .bungkus_about .cowo .box_cewe, .about .box_about .bungkus_about .cewe .box_cowo, .about .box_about .bungkus_about .cewe .box_cewe {
+  margin: 10px 0;
+  position: relative;
+}
+.about .box_about .bungkus_about .cowo .box_cowo .border_img, .about .box_about .bungkus_about .cowo .box_cewe .border_img, .about .box_about .bungkus_about .cewe .box_cowo .border_img, .about .box_about .bungkus_about .cewe .box_cewe .border_img {
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.about .box_about .bungkus_about .cowo .box_cowo .box_img, .about .box_about .bungkus_about .cowo .box_cewe .box_img, .about .box_about .bungkus_about .cewe .box_cowo .box_img, .about .box_about .bungkus_about .cewe .box_cewe .box_img {
+  width: 220px;
+  height: 220px;
+  margin: auto;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 0 12px black;
+  background: red;
+}
+.about .box_about .bungkus_about .cowo .box_cowo .box_img img, .about .box_about .bungkus_about .cowo .box_cewe .box_img img, .about .box_about .bungkus_about .cewe .box_cowo .box_img img, .about .box_about .bungkus_about .cewe .box_cewe .box_img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.about .box_about .bungkus_about .cowo .pengenal, .about .box_about .bungkus_about .cewe .pengenal {
+  width: 230px;
+  margin: 30px auto;
+  text-align: center;
+}
+.about .box_about .bungkus_about .cowo .pengenal .sosmed, .about .box_about .bungkus_about .cewe .pengenal .sosmed {
+  margin: 20px 0;
+}
+.about .box_about .bungkus_about .cowo .pengenal .sosmed a, .about .box_about .bungkus_about .cewe .pengenal .sosmed a {
+  font-size: 0.9rem;
+  color: grey;
+  text-decoration: none;
+}
+.about .box_about .bungkus_about .cowo .pengenal .sosmed a i, .about .box_about .bungkus_about .cewe .pengenal .sosmed a i {
+  font-size: 0.9rem;
+}
+.about .box_about .bungkus_about .cowo .pengenal h2, .about .box_about .bungkus_about .cewe .pengenal h2 {
+  font-size: 2rem;
+  font-family: "wedding";
+  line-height: 35px;
+  color: grey;
+}
+.about .box_about .bungkus_about .cowo .pengenal p, .about .box_about .bungkus_about .cewe .pengenal p {
+  font-size: 0.8rem;
+  margin-top: 10px;
+  font-weight: 100;
+  color: grey;
+  font-family: serif;
+}
+.about .box_about .bungkus_about .heart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+  text-align: center;
+  color: grey;
+}
+.about .box_about .bungkus_about .heart::before, .about .box_about .bungkus_about .heart::after {
+  content: "";
+  width: 150px;
+  height: 2px;
+  background-color: black;
+  display: inline-block;
+  margin-inline: 10px;
+}
+.about .box_about ul {
+  list-style: none;
+}
+.about .box_about ul li {
+  position: absolute;
+}
+.about .box_about ul li img {
+  width: 300px;
+}
+.about .box_about ul li.atas-kiri {
+  transform: scaleX(-1) rotate(110deg);
+  top: -60px;
+  left: -70px;
+}
+.about .box_about ul li.atas-kanan {
+  transform: rotate(90deg);
+  top: -60px;
+  right: -60px;
+}
+.about .box_about ul li.bawah-kiri {
+  transform: rotate(-60deg);
+  bottom: -50px;
+  left: -80px;
+}
+.about .box_about ul li.bawah-kanan {
+  transform: scaleX(-1) rotate(-70deg);
+  bottom: -50px;
+  right: -80px;
+}
+
+.story .box_story {
+  background: linear-gradient(rgba(254, 165, 180, .6), rgba(254, 165, 180,.8)), url("../img/1.png") no-repeat center/cover;
+  padding: 30px;
+}
+.story .box_story .box_title {
+  padding: 40px 0;
+}
+.story .box_story .box_title h2 {
+  text-align: center;
+  font-family: "wedding";
+  color: #fff;
+  font-size: 1.8rem;
+}
+.story .box_story .alur_cerita {
+  padding: 16px;
+  margin: 10px 0;
+  text-align: center;
+  color: white;
+}
+.story .box_story .alur_cerita h3 {
+  font-size: 20px;
+}
+.story .box_story .alur_cerita h3::after {
+  content: "";
+  width: 40%;
+  height: 3px;
+  background-color: #fff;
+  display: block;
+  margin: auto;
+}
+.story .box_story .alur_cerita p {
+  margin-top: 10px;
+  font-size: 0.577em;
+}
+
+.tanggal .box_tanggal {
+  height: 100vh;
+  padding-top: 6rem;
+  background: url("../img/bg.jpeg") no-repeat center/cover;
+}
+.tanggal .box_tanggal .box_title {
+  padding: 40px 0;
+}
+.tanggal .box_tanggal .box_title h2 {
+  text-align: center;
+  font-family: "wedding";
+  color: #804c21;
+  font-size: 1.8rem;
+}
+.tanggal .date p {
+  font-size: 0.8rem;
+  text-align: center;
+  color: #804c21;
+}
+.tanggal .simpan_tanggal {
+  margin: auto;
+}
+.tanggal .simpan_tanggal a {
+  display: block;
+  text-decoration: none;
+  font-size: 15px;
+  width: 250px;
+  transition: 0.8s;
+  margin: 40px auto;
+  color: #804c21;
+  text-align: center;
+  background-color: rgb(254, 225, 108);
+  padding: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.742);
+  border-radius: 30px;
+}
+.tanggal .simpan_tanggal a i {
+  font-size: 18px;
+}
+.tanggal .simpan_tanggal a:hover {
+  box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.742);
+}
+
+.event .box_event {
+    background: linear-gradient(rgba(255, 255, 255, 0.816), rgba(255, 255, 255, 0.816)), url("../img/bg-event.png") no-repeat center/cover;
+  padding: 30px;
+}
+.event .box_event .event-info {
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 8px;
+  background: linear-gradient(rgba(0, 0, 0, 0.0888), rgba(0, 0, 0, 0.0888)), url(../img/bg4.png) no-repeat center/cover;
+}
+.event .box_event .event-info .akad, .event .box_event .event-info .resepsi {
+  margin: 80px 0;
+  text-align: center;
+  color: rgb(99, 99, 99);
+}
+.event .box_event .event-info .akad h2, .event .box_event .event-info .resepsi h2 {
+  font-family: "wedding";
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+  font-weight: 100;
+}
+.event .box_event .event-info .akad p, .event .box_event .event-info .resepsi p {
+  font-size: 0.788rem;
+  margin: 15px 0;
+}
+.event .box_event .event-info .akad p i, .event .box_event .event-info .resepsi p i {
+  font-size: 0.788rem;
+}
+.event .box_event .event-info .akad a, .event .box_event .event-info .resepsi a {
+  color: rgb(99, 99, 99);
+  padding: 5px 15px;
+  font-size: 0.788rem;
+  text-decoration: none;
+  border-radius: 30px;
+  border: 1px solid black;
+  transition: 0.8s;
+}
+.event .box_event .event-info .akad a:hover, .event .box_event .event-info .resepsi a:hover {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.395);
+}
+
+.rsvp .box_rsvp {
+  padding: 40px;
+}
+.rsvp .box_rsvp .box_title {
+  padding: 40px 0;
+}
+.rsvp .box_rsvp .box_title h2 {
+  text-align: center;
+  font-family: "wedding";
+  color: black;
+  font-size: 1.8rem;
+}
+.rsvp .box_rsvp form label {
+  font-size: 0.8rem;
+}
+.rsvp .box_rsvp form .nama, .rsvp .box_rsvp form textarea {
+  font-size: 18px;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+}
+.rsvp .box_rsvp form textarea {
+  height: 150px;
+}
+.rsvp .box_rsvp form textarea, .rsvp .box_rsvp form span {
+  display: block;
+  margin: 30px 0;
+}
+.rsvp .box_rsvp form span {
+  margin: 0;
+}
+.rsvp .box_rsvp form button {
+  display: block;
+  font-size: 18px;
+  padding: 5px 15px;
+  width: 100px;
+  border-radius: 20px;
+  outline: 1px;
+  background-color: transparent;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: 0.9s;
+}
+.rsvp .box_rsvp form button:hover {
+  background-color: grey;
+  color: white;
+  border: none;
+  padding: 7px 15px;
+}
+
+footer .box_footer {
+  padding: 20px;
+  background-color: rgba(94, 101, 137, 0.8823529412);
+}
+footer .box_footer p {
+  color: white;
+  text-align: center;
+  font-size: 16px;
+}/*# sourceMappingURL=style.css.map */
