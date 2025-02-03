@@ -1,8 +1,0 @@
-@keyframes naik-turun {
-    0%,100%{
-        transform: translateY(-5px);
-    }
-    50%{
-        transform: translateY(20px);
-    }
-}
